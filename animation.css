@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    position: relative;
+}
+.anime
+{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    animation: change 3s infinite;
+    position: absolute;
+}
+@keyframes change
+{
+    0%
+    {
+        background-color: yellow;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        background-color: pink;
+        left: 1000px;
+        transform: rotate(360deg);
+        transition: 3s;
+        top: 0;
+    }
+    50%
+    {
+        top: 500px;
+        left: 1000px;
+        background-color: green;
+    }
+    75%
+    {
+        top: 500px;
+        left: 0px;
+        background-color: purple;
+    }
+    100%
+    {
+       left: 0;
+        top: 0;
+        background-color: blueviolet;
+    }
+
+}

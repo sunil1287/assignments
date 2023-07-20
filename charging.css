@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.main
+{
+    height: 90px;
+    width: 170px;
+    border: 5px solid yellow;
+    margin: 150px auto;
+    position: relative;
+}
+.small
+{
+    height: 30px;
+    width: 40px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: yellow;
+    position: absolute;
+    left: 160px;
+    top: 27px;
+}
+.end
+{
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    animation: change 6s linear infinite;
+}
+
+@keyframes change
+{
+    0%
+    {
+        top: 5px;
+        width: 0px;
+        background-color: yellow;
+    }
+    50%
+    {
+        top: 5px;
+        width: 145px;
+        background-color: yellow;
+    }
+    100%
+    {
+        top: 5px;
+        width: 0px;
+        background-color: yellow;
+    }
+}

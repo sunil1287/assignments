@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1
+{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 70px;
+    position: relative;
+    text-align: center;
+    top: 250px;
+    left: 600px;
+}
+.blade1
+{
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 580px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.blade2
+{
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 580px;
+    margin-top: 50px;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width:320px) and (max-width:570px)
+{
+    .head1
+    {
+        width: 100%;
+    }
+    .background1 img
+    {
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.screen img
+{
+   height: 400px;
+   width: 400px;
+}
+.box
+{
+    height: 400px;
+    width: 400px;
+    background-color: lightblue;
+    padding: 25px;
+}
+.box1
+{
+    height: 350px;
+    width: 350px;
+    border: 2px solid skyblue;
+    background-color: white;
+    border-radius: 20px;
+}
+.input
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main2
+{
+    display: flex;
+}
+.reset button
+{
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+}
+.submit button
+{
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+}
